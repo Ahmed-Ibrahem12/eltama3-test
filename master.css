@@ -1,0 +1,61 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    background-color: #444;
+    color: white;
+    display: flex;
+    justify-content: center;
+        flex-direction: column;
+        padding: 3em;
+        width: 18em;
+        border-radius:10px ;
+        text-align: center;
+}
+
+input{
+    padding: .5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    margin-bottom: 1.2em;
+    margin-top: .5em;
+    border-radius: 6px;
+    width: 95%;
+}
+
+label{
+    font-size: 1.3em;
+}
+
+.show{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-top: .5em;
+}
+
+.show input{
+    width:auto;
+    margin: 0;
+    margin-right: .3em;
+}
+.show label{
+    font-size: 1em;
+}
+
+.submit{
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: .4s;
+    font-weight: bold;
+}
+
+.submit:hover{
+    background-color: green;
+    color: white;
+}
